@@ -1,0 +1,14 @@
+[Unit]
+Description=tcp-rand demo service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=cdutten
+ExecStart=/usr/bin/env /home/cdutten/workspace/cdutten/tcp-rand/tcp-rand 8001
+
+[Install]
+WantedBy=multi-user.target
