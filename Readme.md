@@ -47,9 +47,7 @@ To not deviate from the principal subject, make a linux service, I decide to com
 
 Having the compiled file I can run it on my host pc.
 
-Now I make the `/etc/systemd/system/tcp-rand.service`
-
-_a config file for SystemD that tells how to run the service_
+Now I make the `/etc/systemd/system/tcp-rand.service` - _a config file for SystemD that tells how to run the service_ -
 
 
 In the Medium article that I mentioned earlier is a good explanation of all the config in the file.
